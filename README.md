@@ -5,4 +5,5 @@ This provides an implementation for the Imagenet network presented in this [pape
 ## Floydhub
 We are using Floydhub for the purpose of training the network. To launch a Jupyter notebook , follow the following steps :
 
-1. floyd run --mode jupyter --env tensorflow:py2 --data --dataId:mountpath
+1. floyd init "project--name"
+2. floyd run --mode jupyter --env tensorflow:py2 --data --dataId:mountpath
